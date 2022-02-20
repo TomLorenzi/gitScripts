@@ -1,0 +1,16 @@
+{
+  "name": "gitscripts",
+  "version": "1.0.0",
+  "description": "Git scripts to simplify your life",
+  "main": "main.js",
+  "scripts": {
+    "removeBranchs": "node ./removeRemoteBranchs.js E:/AltasiaV2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TomLorenzi",
+  "license": "ISC",
+  "dependencies": {
+    "cli-interact": "^0.1.9",
+    "node-color-log": "^7.0.0"
+  }
+}
