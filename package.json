@@ -4,7 +4,7 @@
   "description": "Git scripts to simplify your life",
   "main": "main.js",
   "scripts": {
-    "removeBranchs": "node ./removeRemoteBranchs.js C:/foo/bar",
+    "removeBranchs": "node ./removeRemoteBranchs.js /var/www/INDB/ITDatabaseV2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "TomLorenzi",

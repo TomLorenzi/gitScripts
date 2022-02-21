@@ -62,7 +62,7 @@ function formatBranchs(rawString) {
     const formattedBranchs = [];
     rawString.split('\n').forEach(branchName => {
         if (branchName.length) {
-            formattedBranchs.push(branchName.replaceAll(/\s/g, ''));
+            formattedBranchs.push(branchName.replace(/\s/g, ''));
         }
     });
     
